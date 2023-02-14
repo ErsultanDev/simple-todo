@@ -1,0 +1,25 @@
+.item {
+    padding: 16px 22px;
+    border-radius: 8px;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    font-size: 18px;
+    background-color: white;
+}
+
+.item > div {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(56, 56, 56);
+    font-weight: 500;
+}
+
+.dataLabel {
+    font-weight: 400;
+    color: gray;
+    font-size: 14px;
+}

@@ -1,0 +1,30 @@
+.loaderWrapper {
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usersList {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.emptyListText {
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167, 167, 167);
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

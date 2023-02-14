@@ -1,0 +1,42 @@
+.button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 0px;
+    transition: 300ms;
+}
+
+.danger {
+    color: rgb(255, 85, 85);
+}
+
+.danger:hover {
+    background: rgb(254, 240, 240);
+    color: rgb(255, 50, 50);
+}
+
+.primary {
+    color: white;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid transparent;
+}
+
+.primary:hover {
+    color:rgb(42, 42, 42);
+    background-color: transparent;
+    border-color: rgb(42, 42, 42);
+}
+
+.secondary {
+    color:rgb(42, 42, 42);
+    background-color: transparent;
+    border: 1px solid rgb(42, 42, 42);
+}
+
+.secondary:hover {
+    color: white;
+    background-color: rgb(42, 42, 42);
+    border-color: transparent;
+}
